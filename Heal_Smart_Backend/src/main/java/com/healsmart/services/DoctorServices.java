@@ -40,9 +40,7 @@ public class DoctorServices {
 		if(patientDao.existsById(patientData.getPatId()))
 		 updateCount=patientDao.updatePatientPrescription(patientData.getPrescription(),patientData.getPatId());
 		else
-		throw new NoSuchPatientFoundException("patient  with id "+patientData.getPatId()+" does not exists");
+		 throw new NoSuchPatientFoundException("patient  with id "+patientData.getPatId()+" does not exists");
 	}
 	
-	
-
 }

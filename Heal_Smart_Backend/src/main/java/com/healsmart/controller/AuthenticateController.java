@@ -19,6 +19,7 @@ import com.healsmart.spring_security.UserDetailsService;
 @CrossOrigin("*")
 @RestController@PermitAll
 public class AuthenticateController {
+	
 	@Autowired
     private JWTUtility jwtUtility;
 

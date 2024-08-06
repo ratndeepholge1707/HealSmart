@@ -42,11 +42,7 @@ public class HospitalManagementServerApplication implements CommandLineRunner {
 		System.out.println("==========================================================================================================");
 		System.out.println("==========================================================================================================");
 		System.out.println("==========================================================================================================");
-//	Employee employee = employeeDao.getById(1);
-//	System.out.println(employee.getUser());
-//	System.out.println(employee);
-		
-//		dService.updatePatientDetails(new PatientDataBacking(1000));
+
 		
 
 	}

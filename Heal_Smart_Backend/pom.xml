@@ -8,7 +8,7 @@
 		<version>2.6.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sunbeam</groupId>
+	<groupId>com.healsmart</groupId>
 	<artifactId>Heal_Smart_Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Heal_Smart_Backend</name>
@@ -62,11 +62,11 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
-<dependency>
-    <groupId>org.springdoc</groupId>
-    <artifactId>springdoc-openapi-ui</artifactId>
-    <version>1.7.0</version>
-</dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.7.0</version>
+         </dependency>
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
