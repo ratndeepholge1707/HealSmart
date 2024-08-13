@@ -1,0 +1,14 @@
+.custom-carousel {
+    height: 160px;
+    width: 220px;
+  }
+  
+  .carousel-image {
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    height: 160px;
+    width: 220px;
+  }
+  
