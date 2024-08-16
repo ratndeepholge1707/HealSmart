@@ -1,5 +1,5 @@
 package com.healsmart.services;
-import static com.healsmart.dtos.EmployeeUserDataBacking.*;
+import static com.healsmart.dtos.EmployeeUserDataBacking.createUser;
 
 import java.util.List;
 
@@ -10,7 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.healsmart.daos.IEmployeeDao;
 import com.healsmart.daos.IUserDao;
 import com.healsmart.dtos.EmployeeUserDataBacking;
-import com.healsmart.entities.Employee;
 import com.healsmart.entities.User;
 
 @Service @Transactional

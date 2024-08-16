@@ -3,7 +3,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.healsmart.controller.DoctorVisitsController;
 import com.healsmart.daos.IDoctorVisitDao;
 import com.healsmart.daos.IEmployeeDao;
 import com.healsmart.daos.IUserDao;

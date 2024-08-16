@@ -1,11 +1,11 @@
 package com.healsmart.services;
-import static com.healsmart.dtos.ChargesCalculationBeanPatient.*;
-import static com.healsmart.dtos.MedicineAssignedDataBackinBean.*;
-import static com.healsmart.dtos.PatientDataBacking.*;
+import static com.healsmart.dtos.ChargesCalculationBeanPatient.calculateCharges;
+import static com.healsmart.dtos.MedicineAssignedDataBackinBean.createMedicineListForPatient;
+import static com.healsmart.dtos.PatientDataBacking.createPatient;
+import static com.healsmart.dtos.PatientDataBacking.createPatientsOfDoctor;
+import static com.healsmart.dtos.PatientDataBacking.getByIdPatient;
 
 import java.util.List;
-
-
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

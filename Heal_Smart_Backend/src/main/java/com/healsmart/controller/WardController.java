@@ -13,15 +13,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.healsmart.dtos.DoctorDataBackinBean;
-import com.healsmart.dtos.PatientDataBacking;
 import com.healsmart.dtos.Response;
 import com.healsmart.dtos.WardDataBackinBean;
-import com.healsmart.services.DoctorServices;
-import com.healsmart.services.PatientServices;
 import com.healsmart.services.WardServices;
 
 @CrossOrigin("*")

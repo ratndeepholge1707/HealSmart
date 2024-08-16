@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.healsmart.daos.IUserDao;
 import com.healsmart.entities.User;
-import com.healsmart.services.UserServices;
 @Service
 public class UserDetailsService implements org.springframework.security.core.userdetails.UserDetailsService {
 

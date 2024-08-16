@@ -1,9 +1,8 @@
 package com.healsmart.services;
-import static com.healsmart.dtos.EmployeeUserDataBacking.*;
+import static com.healsmart.dtos.EmployeeUserDataBacking.createEmployee;
 
 import java.util.List;
 
-import org.hibernate.internal.build.AllowSysOut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

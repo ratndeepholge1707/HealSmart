@@ -3,7 +3,6 @@ package com.healsmart.dtos;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.healsmart.entities.Doctor;
 import com.healsmart.entities.Ward;
 
 import lombok.AllArgsConstructor;

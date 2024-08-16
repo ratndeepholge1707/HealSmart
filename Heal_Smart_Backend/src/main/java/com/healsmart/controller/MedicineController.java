@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.healsmart.dtos.MedicineAssignedDataBackinBean;
 import com.healsmart.dtos.Response;
-import com.healsmart.dtos.WardDataBackinBean;
 import com.healsmart.services.MedicineServices;
 
 @CrossOrigin("*")

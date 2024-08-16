@@ -6,7 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import com.healsmart.entities.DoctorVisit;
-import com.healsmart.services.DoctorVisitsServices;
 
 public interface IDoctorVisitDao extends JpaRepository<DoctorVisit, Integer> {
 	@Modifying
